@@ -3,13 +3,13 @@ datafile = "test_dataFRR.json"
 '''
 The program is a database of historical federal funds rate set my FOMC meetings. The user could search the change made to FFR by typing in the meeting date (Month Year).
 '''
-print("==================")
+print("=================")
 print("Welcome to Fed interest rate database.")
 print("Please search for the changes to the federal funds rate (FFR) made after each FOMC meeting by the Month and Year of the meeting.")
 print()
 print("Type ", '''"Add data"''', " to contribute a data point to the database.")
 print("Type ", '''"Exit search"''', " to end the search.")
-print("==================")
+print("=================")
 counter = 1
 searched_items = []
 added_items = []
